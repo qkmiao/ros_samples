@@ -196,3 +196,6 @@ target_link_libraries(hello ${catkin_LIBRARIES})
 
 add_executable(pubvel pubvel.cpp)
 target_link_libraries(pubvel ${catkin_LIBRARIES})
+
+add_executable(subpose subpose.cpp)
+target_link_libraries(subpose ${catkin_LIBRARIES})
